@@ -11,7 +11,10 @@ h4 {
 }
 
 body {
-    background: #e4e5e6;
+    background-image: url(../images/shironoheya.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 a {
@@ -54,6 +57,7 @@ Generic styles
     padding: 1.5%;
     margin-top: 20px;
     border: none;
+    opacity: 0.1;
 }
 
 .error {
@@ -85,6 +89,7 @@ Generic styles
 
 .footer {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: green;
 }
 
 /* ==========================================================================
